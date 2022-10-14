@@ -1,0 +1,14 @@
+.move-to-cart {
+    min-height: 2rem;
+    min-width: 8rem;
+    background: rgb(41, 80, 250);
+    color: rgb(255, 255, 255);
+    border-radius: 9999px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.move-to-cart:hover {
+    background: blue;
+}
