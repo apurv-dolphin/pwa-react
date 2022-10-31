@@ -301,7 +301,7 @@ const ProductFullDetail = props => {
                     >   
                         <FormattedMessage
                             id={'productFullDetail.details'}
-                            defaultMessage={'Details'}f
+                            defaultMessage={'Details'}
                         />
                     </span>
                     <CustomAttributes
