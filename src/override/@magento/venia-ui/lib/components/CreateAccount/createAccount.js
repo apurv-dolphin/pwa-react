@@ -5,9 +5,7 @@ import { func, shape, string, bool } from 'prop-types';
 import { useCreateAccount } from '@magento/peregrine/lib/talons/CreateAccount/useCreateAccount';
 import { useStyle } from '@magento/venia-ui/lib/classify';
 import Button from '@magento/venia-ui/lib/components/Button';
-
 import combine from '@magento/venia-ui/lib/util/combineValidators';
-
 import Checkbox from '@magento/venia-ui/lib/components/Checkbox';
 import Field from '@magento/venia-ui/lib/components/Field';
 import TextInput from '@magento/venia-ui/lib/components/TextInput';

@@ -1,0 +1,10 @@
+.card-img-top {
+    width: 50%;
+    height: 30vh;
+    align-self: center;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column; 
+}

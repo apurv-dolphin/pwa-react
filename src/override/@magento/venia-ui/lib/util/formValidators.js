@@ -150,7 +150,7 @@ export const validateNumber = value => {
     if (!value.match(PHONE_REGEX)) {
         const message = {
             id: 'validation.validateNumber',
-            defaultMessage: 'A Contact no. must contain 10 number'
+            defaultMessage: 'A Contact no. must contain 10 number and 1(st) charecter between 6-9'
         };
         return message;
     }

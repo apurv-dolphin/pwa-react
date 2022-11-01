@@ -13,7 +13,7 @@ import { GET_CART_DETAILS_QUERY } from '@magento/venia-ui/lib/components/SignIn/
 import LinkButton from '@magento/venia-ui/lib/components/LinkButton';
 import Password from '@magento/venia-ui/lib/components/Password';
 import GoogleRecaptcha from '@magento/venia-ui/lib/components/GoogleReCaptcha';
-import { isRequired } from '@magento/venia-ui/lib/util/formValidators';
+import { isRequired } from '../../util/formValidators';
 
 const SignIn = props => {
     const classes = useStyle(defaultClasses, props.classes);
@@ -78,7 +78,7 @@ const SignIn = props => {
                     />
                 </Field>
                 <Field
-                    id="email"
+                    id="contact"
                     label={formatMessage({
                         id: 'signIn.contactNumberTexta',
                         defaultMessage: 'Enter your Contact number'

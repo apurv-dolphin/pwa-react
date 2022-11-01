@@ -7,10 +7,11 @@ import Icon from '@magento/venia-ui/lib/components/Icon';
 import Button from '@magento/venia-ui/lib/components/Button';
 import { useStyle } from '@magento/venia-ui/lib/classify';
 import defaultClasses from '@magento/venia-ui/lib/components/Gallery/addToCartButton.module.css';
-import MoveToCart from '../../../../../../component/MoveToCart';
+import Information from '../../../../../../component/Information';
 
 const AddToCartButton = props => {
     const { item, urlSuffix } = props;
+
     const talonProps = useAddToCartButton({
         item,
         urlSuffix
@@ -49,6 +50,7 @@ const AddToCartButton = props => {
                 onPress={handleAddToCart}
                 priority="high"
                 type="button"
+                style={{ width: '50%' }}
             >
                 {AddToCartIcon}
                 <span className={classes.text}>
@@ -58,7 +60,7 @@ const AddToCartButton = props => {
                     />
                 </span>
             </Button>
-            <MoveToCart />
+            <Information item={item} />
         </>
     );
 
