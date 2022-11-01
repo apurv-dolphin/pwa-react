@@ -7,7 +7,6 @@ import { Info } from 'react-feather';
 import Price from '@magento/venia-ui/lib/components/Price';
 import { useProductFullDetail } from '@magento/peregrine/lib/talons/ProductFullDetail/useProductFullDetail';
 import { isProductConfigurable } from '@magento/peregrine/lib/util/isProductConfigurable';
-import defaultClasses from '@magento/venia-ui/lib/components/ProductFullDetail/productFullDetail.module.css';
 import { useStyle } from '@magento/venia-ui/lib/classify';
 import Button from '@magento/venia-ui/lib/components/Button';
 import Breadcrumbs from '@magento/venia-ui/lib/components/Breadcrumbs';
@@ -17,6 +16,8 @@ import FormError from '@magento/venia-ui/lib/components/FormError';
 import QuantityStepper from '@magento/venia-ui/lib/components/QuantityStepper';
 import CustomAttributes from '@magento/venia-ui/lib/components/ProductFullDetail/CustomAttributes';
 import { ProductOptionsShimmer } from '@magento/venia-ui/lib/components/ProductOptions';
+import defaultClasses from './productFullDetail.module.css';
+
 
 const WishlistButton = React.lazy(() =>
     import('@magento/venia-ui/lib/components/Wishlist/AddToListButton')

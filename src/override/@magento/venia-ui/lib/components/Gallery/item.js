@@ -129,7 +129,10 @@ const GalleryItem = props => {
                 />
             </div>
 
-            <div className={classes.actionsContainer}>
+            <div
+                className={classes.actionsContainer}
+                style={{ display: 'flex', justifyContent: 'space-around' }}
+            >
                 {addButton}
                 {wishlistButton}
             </div>
